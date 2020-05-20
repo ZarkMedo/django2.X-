@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     'rest_framework', # 添加rest_framework 插件
     'rest_framework.authtoken',
+    'user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
@@ -90,7 +91,7 @@ DATABASES = {
         'PORT': 3306,  # 数据库端口
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '123456',  # 数据库用户密码
-        'NAME': 'shop'  # 数据库名字
+        'NAME': 'hsr'  # 数据库名字
     }
 }
 
